@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "package": "com.reaqwq.nodelaypackets.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "NetworkIoMixin",
+        "ClientConnectionMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

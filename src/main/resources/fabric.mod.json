@@ -1,0 +1,20 @@
+{
+    "schemaVersion": 1,
+    "id": "nodelaypackets",
+    "version": "1.0.0",
+    "name": "NoDelayPackets",
+    "description": "Elminates packet sending latency by force flushing the channel.",
+    "authors": [
+        "reaqwq"
+    ],
+    "license": "MIT",
+    "environment": "client",
+    "mixins": [
+        "nodelaypackets.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.10",
+        "minecraft": "1.21.4",
+        "java": ">=21"
+    }
+}

@@ -1,0 +1,27 @@
+.gradle
+build/
+bin/
+run/
+out/
+.vscode/
+
+# Gradle
+.gradle
+build/
+
+# JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# macOS
+.DS_Store
+
+# Fabric
+# (any specific fabric run dirs if needed)
