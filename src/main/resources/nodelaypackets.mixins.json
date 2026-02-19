@@ -3,8 +3,7 @@
     "package": "com.reaqwq.nodelaypackets.mixin",
     "compatibilityLevel": "JAVA_21",
     "mixins": [
-        "NetworkIoMixin",
-        "ClientConnectionMixin"
+        "NetworkIoMixin"
     ],
     "injectors": {
         "defaultRequire": 1
